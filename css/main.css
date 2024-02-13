@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+html {
+    font-family: 'Source Code Pro';
+    background: rgb(32, 33, 38);
+    color: whitesmoke;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    padding: 20px;
+    border-bottom: 0.5px solid rgb(71, 73, 86);;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+#aside {
+    margin: 20px;
+}
+
+#aside a {
+    color: whitesmoke;
+}
+
+.subtext {
+    color: grey;
+}
+
+#aside a::after {
+    content: "\a";
+    white-space: pre;
+}
+
+.hidden {
+    color: grey;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    color: white;
+}
+
+li.hidden {
+    cursor: not-allowed;
+}
